@@ -5,13 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class mainmenu : MonoBehaviour
 {
+    public GameObject AudioSettingsUI;
+
     public void PlayGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Space");
     }
 
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void GoToAudioSettings()
+    {
+        AudioSettingsUI.SetActive(true);
     }
 }
