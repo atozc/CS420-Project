@@ -1917,6 +1917,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1142631466}
   - component: {fileID: 1142631467}
+  - component: {fileID: 1142631468}
   m_Layer: 0
   m_Name: Mercury
   m_TagString: Untagged
@@ -1989,6 +1990,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1142631468
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142631465}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.24, y: 10.24, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1167358099
 GameObject:
   m_ObjectHideFlags: 0
@@ -5029,11 +5043,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3242849372383284943, guid: 3065984e7a65b744caddb1ff81b14198, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 7
+      value: -46
       objectReference: {fileID: 0}
     - target: {fileID: 3242849372383284943, guid: 3065984e7a65b744caddb1ff81b14198, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1097
+      value: 1101
       objectReference: {fileID: 0}
     - target: {fileID: 3242849372383284943, guid: 3065984e7a65b744caddb1ff81b14198, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
