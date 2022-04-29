@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class mainmenu : MonoBehaviour
 {
     public GameObject AudioSettingsUI;
+    public GameObject MainMenuUI; 
 
     public void PlayGame()
     {
@@ -20,5 +21,11 @@ public class mainmenu : MonoBehaviour
     public void GoToAudioSettings()
     {
         AudioSettingsUI.SetActive(true);
+    }
+
+    public void Back()
+    {
+        AudioSettingsUI.SetActive(false);
+        MainMenuUI.SetActive(true);
     }
 }
