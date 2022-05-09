@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.23315534, g: 0.23638168, b: 0.27299175, a: 1}
+  m_IndirectSpecularColor: {r: 0.23237315, g: 0.23476109, b: 0.27237305, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -289,7 +289,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 17649503}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9aef9e8fca7ae074c87a2cf60c2ff2e4, type: 3}
   m_Name: 
@@ -312,7 +312,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &32468530
 RectTransform:
   m_ObjectHideFlags: 0
@@ -554,7 +554,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1627124866308356878, guid: 3065984e7a65b744caddb1ff81b14198, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1627124866308356878, guid: 3065984e7a65b744caddb1ff81b14198, type: 3}
       propertyPath: m_LocalScale.x
@@ -1592,7 +1592,7 @@ PrefabInstance:
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1842572382}
+      objectReference: {fileID: 1165573370}
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -1603,7 +1603,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BackToGame, Assembly-CSharp
+      value: NewPlanetTrigger, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -1648,7 +1648,7 @@ RectTransform:
   - {fileID: 2111731027}
   - {fileID: 14472732}
   m_Father: {fileID: 77181415}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -3170,7 +3170,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1105438864}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &392341232
 MonoBehaviour:
@@ -3207,13 +3207,13 @@ MonoBehaviour:
     - 67 years
     CorrectAnswerIndex: 1
   options:
-  - {fileID: 0}
+  - {fileID: 1278848257}
   - {fileID: 327671937}
   - {fileID: 264889971}
   - {fileID: 2055708403}
   currentQuestion: 0
   GameOverPanel: {fileID: 1621399937}
-  QuestionTxt: {fileID: 0}
+  QuestionTxt: {fileID: 780761723}
   ScoreTxt: {fileID: 740740269}
   score: 0
 --- !u!1 &411497798
@@ -3681,7 +3681,7 @@ PrefabInstance:
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1589454879}
+      objectReference: {fileID: 1165573370}
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -3692,7 +3692,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BackToGame, Assembly-CSharp
+      value: NewPlanetTrigger, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -3967,7 +3967,7 @@ PrefabInstance:
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 17649505}
+      objectReference: {fileID: 1165573370}
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -3978,7 +3978,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BackToGame, Assembly-CSharp
+      value: NewPlanetTrigger, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -4080,9 +4080,10 @@ GameObject:
   - component: {fileID: 515410431}
   - component: {fileID: 515410432}
   - component: {fileID: 515410437}
+  - component: {fileID: 515410433}
   m_Layer: 5
   m_Name: Jupiter
-  m_TagString: Untagged
+  m_TagString: Planet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4152,6 +4153,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &515410433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515410430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ead9ed1235160924b967867e3e91732e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MercuryUI: {fileID: 884339154}
+  VenusUI: {fileID: 1731001909}
+  EarthUI: {fileID: 1361909023}
+  MarsUI: {fileID: 77181418}
+  JupiterUI: {fileID: 2018278920}
+  SaturnUI: {fileID: 2018278920}
+  UranusUI: {fileID: 1810623079}
+  NeptuneUI: {fileID: 2123358113}
 --- !u!65 &515410437
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4160,7 +4181,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 515410430}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 10.24, y: 10.24, z: 0.2}
@@ -4191,7 +4212,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 545651228}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 316, z: 0}
+  m_LocalPosition: {x: 114, y: 377, z: 0}
   m_LocalScale: {x: 21.816002, y: 20.816, z: 10}
   m_Children: []
   m_Father: {fileID: 554685564}
@@ -4459,9 +4480,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 554685564}
-  - component: {fileID: 554685566}
-  - component: {fileID: 554685565}
-  - component: {fileID: 554685567}
   m_Layer: 0
   m_Name: Planets
   m_TagString: Untagged
@@ -4490,45 +4508,8 @@ Transform:
   - {fileID: 656447140}
   - {fileID: 1686698713}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &554685565
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 554685563}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e86bf6e15790bd4b87c3493e82ae7e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &554685566
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 554685563}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e86bf6e15790bd4b87c3493e82ae7e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &554685567
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 554685563}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07e5a0f2fe490d54591bac4140f4dbb3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Panel: {fileID: 0}
 --- !u!1 &638069899 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8926326859099665612, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
@@ -4634,7 +4615,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 77181415}
+    m_TransformParent: {fileID: 77181416}
     m_Modifications:
     - target: {fileID: 1956357162231566612, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_Pivot.x
@@ -4646,7 +4627,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1956357162231566612, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1956357162231566612, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_AnchorMax.x
@@ -4690,19 +4671,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1956357162231566612, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1956357162231566612, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1956357162231566612, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1956357162231566612, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -445
+      value: -296
       objectReference: {fileID: 0}
     - target: {fileID: 1956357162231566612, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -4735,7 +4716,7 @@ PrefabInstance:
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 638069901}
+      objectReference: {fileID: 1165573370}
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -4746,7 +4727,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BackToGame, Assembly-CSharp
+      value: NewPlanetTrigger, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -4845,9 +4826,10 @@ GameObject:
   - component: {fileID: 656447140}
   - component: {fileID: 656447141}
   - component: {fileID: 656447146}
+  - component: {fileID: 656447142}
   m_Layer: 5
   m_Name: Uranus
-  m_TagString: Untagged
+  m_TagString: Planet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4917,6 +4899,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &656447142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 656447139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ead9ed1235160924b967867e3e91732e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MercuryUI: {fileID: 884339154}
+  VenusUI: {fileID: 1731001909}
+  EarthUI: {fileID: 1631122805}
+  MarsUI: {fileID: 1361909023}
+  JupiterUI: {fileID: 77181418}
+  SaturnUI: {fileID: 2018278920}
+  UranusUI: {fileID: 1810623079}
+  NeptuneUI: {fileID: 2123358113}
 --- !u!65 &656447146
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4925,7 +4927,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 656447139}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 10.24, y: 10.24, z: 0.2}
@@ -5549,7 +5551,7 @@ RectTransform:
   - {fileID: 1616681799}
   - {fileID: 1871856002}
   m_Father: {fileID: 77181415}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -6328,7 +6330,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 930580792}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9aef9e8fca7ae074c87a2cf60c2ff2e4, type: 3}
   m_Name: 
@@ -6822,7 +6824,7 @@ PrefabInstance:
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2018652889}
+      objectReference: {fileID: 1165573370}
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -6833,7 +6835,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BackToGame, Assembly-CSharp
+      value: NewPlanetTrigger, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -7405,13 +7407,13 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1954620725}
   - {fileID: 2129536518}
   - {fileID: 1267783828}
   - {fileID: 1907873010}
   - {fileID: 392341231}
+  - {fileID: 1165573371}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1113965665
 GameObject:
@@ -7682,7 +7684,7 @@ GameObject:
   - component: {fileID: 1142631469}
   m_Layer: 5
   m_Name: Mercury
-  m_TagString: Untagged
+  m_TagString: Planet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7765,7 +7767,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1142631465}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 10.24, y: 10.24, z: 0.2}
@@ -7782,7 +7784,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead9ed1235160924b967867e3e91732e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlanetUI: {fileID: 884339154}
+  MercuryUI: {fileID: 884339154}
+  VenusUI: {fileID: 1731001909}
+  EarthUI: {fileID: 1631122805}
+  MarsUI: {fileID: 1361909023}
+  JupiterUI: {fileID: 77181418}
+  SaturnUI: {fileID: 2018278920}
+  UranusUI: {fileID: 1810623079}
+  NeptuneUI: {fileID: 2123358113}
 --- !u!222 &1142631473
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7791,6 +7800,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1142631465}
   m_CullTransparentMesh: 1
+--- !u!1 &1165573369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1165573371}
+  - component: {fileID: 1165573370}
+  m_Layer: 0
+  m_Name: PlanetTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1165573370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165573369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ead9ed1235160924b967867e3e91732e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MercuryUI: {fileID: 884339154}
+  VenusUI: {fileID: 1731001909}
+  EarthUI: {fileID: 1631122805}
+  MarsUI: {fileID: 1361909023}
+  JupiterUI: {fileID: 77181418}
+  SaturnUI: {fileID: 2018278920}
+  UranusUI: {fileID: 1810623079}
+  NeptuneUI: {fileID: 2123358113}
+--- !u!4 &1165573371
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165573369}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1105438864}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1167358099
 GameObject:
   m_ObjectHideFlags: 0
@@ -7802,9 +7862,10 @@ GameObject:
   - component: {fileID: 1167358100}
   - component: {fileID: 1167358101}
   - component: {fileID: 1167358106}
+  - component: {fileID: 1167358102}
   m_Layer: 5
   m_Name: Earth
-  m_TagString: Untagged
+  m_TagString: Planet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7879,6 +7940,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1167358102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167358099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ead9ed1235160924b967867e3e91732e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MercuryUI: {fileID: 884339154}
+  VenusUI: {fileID: 1731001909}
+  EarthUI: {fileID: 1631122805}
+  MarsUI: {fileID: 1361909023}
+  JupiterUI: {fileID: 77181418}
+  SaturnUI: {fileID: 2018278920}
+  UranusUI: {fileID: 1810623079}
+  NeptuneUI: {fileID: 2123358113}
 --- !u!65 &1167358106
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7887,7 +7968,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1167358099}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 10.24, y: 10.24, z: 0.2}
@@ -8713,7 +8794,7 @@ PrefabInstance:
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1532516292}
+      objectReference: {fileID: 1165573370}
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -8724,7 +8805,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BackToGame, Assembly-CSharp
+      value: NewPlanetTrigger, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -8865,7 +8946,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1105438864}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1278848257
 GameObject:
@@ -9279,7 +9360,7 @@ PrefabInstance:
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1978404990}
+      objectReference: {fileID: 1165573370}
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -9290,7 +9371,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BackToGame, Assembly-CSharp
+      value: NewPlanetTrigger, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -10506,7 +10587,7 @@ Transform:
   - {fileID: 1862811030}
   - {fileID: 1834510469}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1456857038
 GameObject:
@@ -10519,9 +10600,10 @@ GameObject:
   - component: {fileID: 1456857039}
   - component: {fileID: 1456857040}
   - component: {fileID: 1456857045}
+  - component: {fileID: 1456857041}
   m_Layer: 5
   m_Name: Mars
-  m_TagString: Untagged
+  m_TagString: Planet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10591,6 +10673,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1456857041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456857038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ead9ed1235160924b967867e3e91732e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MercuryUI: {fileID: 884339154}
+  VenusUI: {fileID: 1731001909}
+  EarthUI: {fileID: 1631122805}
+  MarsUI: {fileID: 1361909023}
+  JupiterUI: {fileID: 77181418}
+  SaturnUI: {fileID: 2018278920}
+  UranusUI: {fileID: 1810623079}
+  NeptuneUI: {fileID: 2123358113}
 --- !u!65 &1456857045
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10599,7 +10701,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1456857038}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 10.24, y: 10.24, z: 0.2}
@@ -10616,7 +10718,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1532516290}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9aef9e8fca7ae074c87a2cf60c2ff2e4, type: 3}
   m_Name: 
@@ -10633,9 +10735,10 @@ GameObject:
   - component: {fileID: 1559419628}
   - component: {fileID: 1559419629}
   - component: {fileID: 1559419634}
+  - component: {fileID: 1559419630}
   m_Layer: 5
   m_Name: Saturn
-  m_TagString: Untagged
+  m_TagString: Planet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10705,6 +10808,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1559419630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559419627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ead9ed1235160924b967867e3e91732e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MercuryUI: {fileID: 884339154}
+  VenusUI: {fileID: 1731001909}
+  EarthUI: {fileID: 1631122805}
+  MarsUI: {fileID: 1361909023}
+  JupiterUI: {fileID: 77181418}
+  SaturnUI: {fileID: 2018278920}
+  UranusUI: {fileID: 1810623079}
+  NeptuneUI: {fileID: 2123358113}
 --- !u!65 &1559419634
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10713,7 +10836,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1559419627}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 10.24, y: 10.24, z: 0.2}
@@ -11551,9 +11674,10 @@ GameObject:
   - component: {fileID: 1686698713}
   - component: {fileID: 1686698714}
   - component: {fileID: 1686698719}
+  - component: {fileID: 1686698715}
   m_Layer: 5
   m_Name: Neptune
-  m_TagString: Untagged
+  m_TagString: Planet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11623,6 +11747,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1686698715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686698712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ead9ed1235160924b967867e3e91732e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MercuryUI: {fileID: 884339154}
+  VenusUI: {fileID: 1731001909}
+  EarthUI: {fileID: 1631122805}
+  MarsUI: {fileID: 1361909023}
+  JupiterUI: {fileID: 77181418}
+  SaturnUI: {fileID: 2018278920}
+  UranusUI: {fileID: 1810623079}
+  NeptuneUI: {fileID: 2123358113}
 --- !u!65 &1686698719
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11631,7 +11775,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686698712}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 10.24, y: 10.24, z: 0.2}
@@ -12759,7 +12903,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1842572380}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9aef9e8fca7ae074c87a2cf60c2ff2e4, type: 3}
   m_Name: 
@@ -13901,7 +14045,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1105438864}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1907873011
 MonoBehaviour:
@@ -13938,7 +14082,7 @@ MonoBehaviour:
     - 687 days
     CorrectAnswerIndex: 4
   options:
-  - {fileID: 0}
+  - {fileID: 1327986500}
   - {fileID: 327671937}
   - {fileID: 264889971}
   - {fileID: 2055708403}
@@ -13958,9 +14102,10 @@ GameObject:
   - component: {fileID: 1919679837}
   - component: {fileID: 1919679838}
   - component: {fileID: 1919679843}
+  - component: {fileID: 1919679839}
   m_Layer: 5
   m_Name: Venus
-  m_TagString: Untagged
+  m_TagString: Planet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14030,6 +14175,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1919679839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919679836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ead9ed1235160924b967867e3e91732e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MercuryUI: {fileID: 884339154}
+  VenusUI: {fileID: 1731001909}
+  EarthUI: {fileID: 1631122805}
+  MarsUI: {fileID: 1361909023}
+  JupiterUI: {fileID: 77181418}
+  SaturnUI: {fileID: 2018278920}
+  UranusUI: {fileID: 1810623079}
+  NeptuneUI: {fileID: 2123358113}
 --- !u!65 &1919679843
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14038,7 +14203,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1919679836}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 10.24, y: 10.24, z: 0.2}
@@ -14075,7 +14240,7 @@ Transform:
   - {fileID: 1811530960}
   - {fileID: 2104198032}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1936680802
 GameObject:
@@ -14341,7 +14506,7 @@ PrefabInstance:
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 930580794}
+      objectReference: {fileID: 1165573370}
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -14352,7 +14517,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BackToGame, Assembly-CSharp
+      value: NewPlanetTrigger, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8392316747449824887, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -14393,8 +14558,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1105438864}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1954620726
 MonoBehaviour:
@@ -14595,7 +14760,6 @@ GameObject:
   - component: {fileID: 1973390801}
   - component: {fileID: 1973390800}
   - component: {fileID: 1973390799}
-  - component: {fileID: 1973390803}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -14694,36 +14858,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1973390803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1973390798}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e86bf6e15790bd4b87c3493e82ae7e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &1978404988 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8926326859099665612, guid: c06c52ff9bbab234fa1c32ccf6b689a3, type: 3}
-  m_PrefabInstance: {fileID: 1325893422}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1978404990
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1978404988}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9aef9e8fca7ae074c87a2cf60c2ff2e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FactsUI: {fileID: 884339154}
 --- !u!1 &1982525400
 GameObject:
   m_ObjectHideFlags: 0
@@ -15185,7 +15319,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2018652887}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9aef9e8fca7ae074c87a2cf60c2ff2e4, type: 3}
   m_Name: 
@@ -15697,7 +15831,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
-  quizManager: {fileID: 0}
+  quizManager: {fileID: 1907873011}
 --- !u!114 &2055708405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16410,7 +16544,7 @@ Transform:
   - {fileID: 1893108392}
   - {fileID: 714059172}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2121814567
 PrefabInstance:
@@ -16755,7 +16889,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1105438864}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2129536519
 MonoBehaviour:
