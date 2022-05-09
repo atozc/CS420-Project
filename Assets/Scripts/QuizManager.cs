@@ -10,9 +10,9 @@ public class QuizManager : MonoBehaviour
     public GameObject[] options;
     public int currentQuestion;
 
-    public GameObject QuizPanel;
+    //public GameObject QuizPanel;
     public GameObject GameOverPanel;
-    public GameObject TakeQuizPanel;
+    //public GameObject TakeQuizPanel;
 
     public Text QuestionTxt;
     public Text ScoreTxt;
@@ -23,8 +23,8 @@ public class QuizManager : MonoBehaviour
     private void Start()
     {
         GameOverPanel.SetActive(false);
-        TakeQuizPanel.SetActive(true);
-        QuizPanel.SetActive(false);
+        //TakeQuizPanel.SetActive(true);
+        //QuizPanel.SetActive(false);
     }
 
     public void backToFacts()
@@ -40,17 +40,17 @@ public class QuizManager : MonoBehaviour
     public void startGame()
     {
         totalQuestions = QnA.Count;
-        QuizPanel.SetActive(true);
+        //QuizPanel.SetActive(true);
         GameOverPanel.SetActive(false);
-        TakeQuizPanel.SetActive(false);
+        //TakeQuizPanel.SetActive(false);
         generateQuestion();
     }
 
     public void GameOver()
     {
-        QuizPanel.SetActive(false);
+        //QuizPanel.SetActive(false);
         GameOverPanel.SetActive(true);
-        TakeQuizPanel.SetActive(false);
+        //TakeQuizPanel.SetActive(false);
         ScoreTxt.text = "Score: " + score + "/" + totalQuestions;
     }
 
